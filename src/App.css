@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +24,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #e458c4f4;
 }
 
 @keyframes App-logo-spin {
@@ -38,17 +37,29 @@
 }
 
 button {
-  padding: 20px;
+  padding: 15px;
   font-size: 30px;
-  color: white;
-  background-color: pink;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 181, 238);
+  border-radius: 50%;
 }
 
 section h2 {
   font-size: 150px;
+background-color: #C850C0;
+background-image: linear-gradient(147deg, #C850C0 12%, #FFCC70 48%, #ce0cca 88%);
 
-  background: #23CF23;
-  background: linear-gradient(to bottom left, #23CF23 10%, #AC3ACF 82%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+body {
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/creative-layout-with-pink-flowers-paper-heart-over-punchy-pastel-background-top-view-flat-lay-spring-summer-or-garden-concept-present-for-woman-day-yuliia-chyzhevska.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+
+

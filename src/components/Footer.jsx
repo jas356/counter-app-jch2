@@ -3,7 +3,7 @@ export default function Footer () {
       return (
         <footer>
           <p><small>&copy; 2023</small><br />
-          <a href={githubURL} target="_blank" rel="noreferrer">See Code in Github</a></p>
+          <a href={githubURL} target="_blank" rel="noreferrer">Code in Github</a></p>
         </footer>
       )
     }
